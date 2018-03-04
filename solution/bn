@@ -1,0 +1,10 @@
+require_relative 'setup'
+
+# Main class
+class Main
+  def run
+    pp data_sets = Setup.data_sets
+  end
+end
+
+Main.new.run
